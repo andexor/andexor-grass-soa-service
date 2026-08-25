@@ -9,10 +9,20 @@ authors = [
 requires-python = ">=3.14"
 dependencies = [
     "dnspython[idna]>=2.8.0",
+    "pip-licenses>=5.5.5",
 ]
+license = 'Apache-2.0'
+license-files = ['LICENSE']
+keywords = ["Andexor", "Grass Spider", "SEO", "DNS", "SOA"]
 
 [project.scripts]
 andexor-grass-spider-soa-service = "andexor_grass_spider_soa_service:main"
+
+[project.urls]
+homepage = "https://andexor.net"
+documentation = "https://andexor.net"
+source = "https://github.com/andexor/andexor-grass-spider-soa-service"
+issues = "https://github.com/andexor/andexor-grass-spider-soa-service/issues"
 
 [build-system]
 requires = ["uv_build>=0.12.4,<0.13.0"]

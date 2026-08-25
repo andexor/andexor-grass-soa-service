@@ -1,0 +1,8 @@
+ 
+2026-08-25T22:48:44+00:00
+ 
+| Name                             | Version | License            |
+|----------------------------------|---------|--------------------|
+| andexor-grass-spider-soa-service | 1.0.0   | Apache-2.0         |
+| dnspython                        | 2.8.0   | ISC License (ISCL) |
+| idna                             | 3.18    | BSD-3-Clause       |
